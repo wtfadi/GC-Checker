@@ -1,8 +1,5 @@
 ```markdown
-# Croma Gift Card Balance Checker
-
-[![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/)
-[![Requests](https://img.shields.io/badge/Requests-2.25%2B-green)](https://pypi.org/project/requests/)
+# GC-Checker
 
 A Python tool to check balances of Croma gift cards using their API. Generates random card suffixes for the prefix `100134004` and notifies via Telegram when positive balances are found.
 
@@ -24,8 +21,8 @@ A Python tool to check balances of Croma gift cards using their API. Generates r
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
-cd croma-card-checker
+git clone https://github.com/yourusername/GC-Checker
+cd GC-Checker
 ```
 
 2. **Install dependencies**
@@ -143,20 +140,17 @@ Balance     : ₹1250.00
 
 For legitimate gift card balance verification only. Ensure you have proper authorization for API access. Rate limiting is implemented to respect API terms of service.
 
-## License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
 ---
 
 **⭐ Star this repo if you found it helpful!**  
-**🐛 Found a bug? [Open an issue](https://github.com/yourusername/croma-card-checker/issues)**
+**🐛 Found a bug? [Open an issue](https://github.com/wtfadi/GC-Checker/issues)**
 
 ---
 
 ```bash
 # Quick start
-git clone <repo> && cd croma-card-checker
+git clone https://github.com/yourusername/GC-Checker
+cd GC-Checker
 pip install -r requirements.txt
 cp .env.example .env
 # Edit .env with your tokens
@@ -168,4 +162,3 @@ python checker.py
 **Made with ❤️ for the cybersecurity community**
 ```
 
-**Copy everything above this line and paste it into your GitHub README.md file!**
